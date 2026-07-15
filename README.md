@@ -16,10 +16,10 @@ My journey in Mechanical Engineering has led me to develop a passion for cyberse
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
 | Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">Detection Lab</a>|
-| Incident Response Planning and Execution      |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">Detection Lab</a>|
-| Case Management with TheHive                  |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">SOC Auomation</a>|
+| Incident Response Planning and Execution      |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">SOC Automation</a>|
+| Case Management with TheHive                  |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">SOC Automation</a>|
+| Scripting and Automation for Threat Mitigation |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">SOC Automation</a>|
 
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
