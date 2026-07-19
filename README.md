@@ -22,7 +22,7 @@ My journey in Mechanical Engineering has led me to develop a passion for cyberse
 | Scripting and Automation for Threat Mitigation |  <a href="https://github.com/Omphulusak/SOC-Automation-with-Wazuh">SOC Automation</a>|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+
 
 ### Network
 <div>
