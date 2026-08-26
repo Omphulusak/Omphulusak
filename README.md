@@ -11,24 +11,28 @@ CompTIA Security+ certified, self-taught SOC analyst. I build hands-on detection
 ## What I've built
 
 ### 🔍 [Detection Lab](https://github.com/Omphulusak/Detection-Lab)
-A controlled environment for simulating and detecting attacks, built to practice real SIEM workflows rather than just reading about them.
-- Ingested and analyzed logs in Splunk to identify attack patterns from generated test telemetry
-- Used Wireshark to capture and inspect network traffic tied to specific attack signatures
-- Wrote up findings connecting raw log data to identifiable attacker behavior
+An end-to-end SOC lab in Vultr Cloud simulating real attacks and engineering detections against them.
+- Deployed Elastic Stack, Fleet, and Sysmon to collect and centralize Windows endpoint telemetry
+- Simulated adversary activity using Mythic C2 and investigated the resulting alerts in Kibana
+- Wrote custom KQL detection rules and mapped findings to the MITRE ATT&CK framework
+- Documented the full build and investigation across 11 write-ups
 
-<!-- Add screenshot: Splunk dashboard showing a detected attack pattern -->
-<!-- Add screenshot: Wireshark capture with an annotated attack signature -->
+<p align="center">
+<img src="https://raw.githubusercontent.com/Omphulusak/Detection-Lab/main/screenshots/detection-lab-architecture.png" width="420"/>
+<img src="https://raw.githubusercontent.com/Omphulusak/Detection-Lab/main/screenshots/sysmon-logs-in-elasticsearch.png" width="420"/>
+</p>
 
 ### ⚙️ [SOC Automation with Wazuh](https://github.com/Omphulusak/SOC-Automation-with-Wazuh)
-An automated SOC pipeline connecting detection, enrichment, and case management — built to understand how alerts move from raw signal to resolved case in a real SOC.
+An automated SOC pipeline connecting detection, enrichment, and case management.
 - Deployed Wazuh for log collection and alert generation across a Windows/Linux environment
-- Built Shuffle SOAR workflows to automatically enrich alerts with threat intel context
+- Built Shuffle SOAR workflows to automatically enrich alerts with VirusTotal threat intel
 - Configured TheHive for case management, routing enriched alerts into actionable cases
-- Wrote incident response documentation for simulated scenarios end to end
+- Validated the pipeline end to end using a live Mimikatz credential-dumping detection
 
-<!-- Add screenshot: Wazuh alert dashboard -->
-<!-- Add screenshot: Shuffle workflow enriching an alert -->
-<!-- Add screenshot: TheHive case view -->
+<p align="center">
+<img src="https://raw.githubusercontent.com/Omphulusak/SOC-Automation-with-Wazuh/main/screenshots/wazuh-dashboard-overview.png" width="420"/>
+<img src="https://raw.githubusercontent.com/Omphulusak/SOC-Automation-with-Wazuh/main/screenshots/mimikatz-detection-results.png" width="420"/>
+</p>
 
 ## Tools I've worked with
 
