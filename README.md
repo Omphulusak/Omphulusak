@@ -34,6 +34,20 @@ An automated SOC pipeline connecting detection, enrichment, and case management.
 <img src="https://raw.githubusercontent.com/Omphulusak/SOC-Automation-with-Wazuh/main/screenshots/mimikatz-detection-results.png" width="420"/>
 </p>
 
+### 📊 [Splunk SOC Dashboards](https://github.com/Omphulusak/Splunk-SOC-Dashboards)
+Two Splunk dashboards built to monitor and investigate security events: SSH brute-force activity against a Linux host, and Windows security events on a small AD-joined environment.
+- Built an **SSH activity** dashboard tracking failed/successful login patterns, top attacking IPs, and a geographic map of brute-force attempts
+- Built a **Windows events** dashboard tracking privileged logons, new account creation, and firewall rule changes
+- Caught a real detection: a privileged account with 22 admin logons that day also created a new local account — a strong indicator of credential misuse or persistence
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Omphulusak/Omphulusak/main/screenshots/dash-overview.jpg" width="420"/>
+<img src="https://raw.githubusercontent.com/Omphulusak/Omphulusak/main/screenshots/ssh-activity.jpg" width="420"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Omphulusak/Omphulusak/main/screenshots/windows-activity.jpg" width="420"/>
+</p>
+
 ## Tools I've worked with
 
 **Network**
